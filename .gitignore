@@ -1,0 +1,11 @@
+.ipynb_checkpoints/
+__pycache__
+data/
+log/
+*.pyc
+log*.txt
+.DS_Store
+Untitled.*
+mail.id
+nohup.out
+/.idea
