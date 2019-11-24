@@ -1,0 +1,12 @@
+{
+  "report_id": "门店欠货明细",
+   "report_name": "门店欠货明细",
+   "owner": "ada.li",
+   "to": "Chenxiao_lu@tsscg.com.cn,huimin.liu@abc.com,shuang.wu@abc.com,bei.zhang@abc.com,di.hu@abc.com,hongshuai_zhang@tsscg.com.cn,zhengzheng.dai@abc.com,yilan.wu@abc.com,lianjun.qi@abc.com,zhenyuan.xue@abc.com,jie_wang@tsscg.com.cn,ningjie_chu@tsscg.com.cn,hao.dong@abc.com,yuan.hua@abc.com,yingchao.hua@abc.com,qin.zhang@abc.com,di.hu@abc.com,chenxing.hu@abc.com",
+   "cc": "ada.li@abc.com",
+   "subject": "门店欠货明细",
+   "file_type": {"html":["欠品汇总", "数据口径"],"xlsx":["出库欠货明细", "验货欠货明细", "欠品汇总", "数据口径"]},
+   "frequency": "每日 10:00",
+   "db_type": "mysql",
+   "df_names": ["出库欠货明细", "验货欠货明细", "欠品汇总", "数据口径"]
+}

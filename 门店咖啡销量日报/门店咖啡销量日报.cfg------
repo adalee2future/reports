@@ -1,0 +1,15 @@
+{
+	"report_id":"门店咖啡销量日报",
+	"report_name":"门店咖啡销量日报",
+	"owner":"guiyang.yu",
+	"to":"bob.zou@abc.com,zhenyuan.xue@abc.com,hao.dong@abc.com,caibao@abc.com",
+	"cc":"guiyang.yu@abc.com",
+	"subject":"门店咖啡销量日报",
+	"file_type": {"html": ["门店咖啡销量汇总_去除新人1分购","门店咖啡卡券销量", "外卖咖啡销量汇总"], "xlsx": ["门店咖啡销量汇总_去除新人1分购", "门店咖啡销售明细","门店咖啡卡券销量", "外卖咖啡销量汇总", "外卖销售明细"]},
+	"frequency":"每天上午8：30",
+	"df_names" : ["门店咖啡销量汇总_去除新人1分购","门店咖啡销售明细","门店咖啡卡券销量","外卖咖啡销量汇总", "外卖销售明细"],
+	"db_type":"odps",
+	"no_data_handler": {"condition": "all", "action": "error"}
+}
+
+

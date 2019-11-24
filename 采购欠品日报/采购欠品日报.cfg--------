@@ -1,0 +1,18 @@
+{
+  "report_id": "采购欠品日报",
+  "report_name": "采购欠品日报",
+  "owner": "ada.li",
+  "to": "yilan.wu@abc.com,hao.dong@abc.com,yingchao.hua@abc.com,yuan.hua@abc.com,bei.zhang@abc.com,di.hu@abc.com",
+  "cc": "ada.li@abc.com",
+  "subject": "采购欠品日报",
+  "file_type": {"html": ["采购欠品日报"], "xlsx": ["采购欠品日报"]},
+  "df_names": ["采购欠品日报"],
+  "frequency": "早上9点",
+  "db_type": "odps",
+  "hyperlinks": [
+    {
+      "text_field": "采购单号",
+      "url_field": "采购单号链接"
+    }
+  ]
+}

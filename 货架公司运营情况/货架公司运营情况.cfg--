@@ -1,0 +1,12 @@
+{
+  "report_id": "货架公司运营情况",
+  "report_name": "货架公司运营情况",
+  "owner": "ada.li",
+  "to": "luobin.yan@abc.com",
+  "cc": "bob.zou@abc.com,sam.li@abc.com,ada.li@abc.com",
+  "subject": "货架公司运营情况",
+  "file_type": "xlsx",
+  "frequency": "每周一 11:00",
+  "db_type": "odps",
+  "is_online": false
+}

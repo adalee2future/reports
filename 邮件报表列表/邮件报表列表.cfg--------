@@ -1,0 +1,11 @@
+{
+  "report_id": "邮件报表列表",
+  "report_name": "邮件报表列表",
+  "to": "ada.li@abc.com",
+  "owner": "ada.li",
+  "subject": "邮件报表列表",
+  "file_type": "xlsx",
+  "frequency": "每周一",
+  "customized_file": true,
+  "is_online": false
+}
