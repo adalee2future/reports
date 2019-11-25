@@ -6,7 +6,7 @@
 
 <https://bitbucket.org/adalee2future/bi_mail>
 
-#### 开发信息
+#### 开发者
 
 * 开发者: 李阿大
 * 开发语言: python3
@@ -15,8 +15,8 @@
 
 #### 其他 
 
-[报表规范](https://bitbucket.org/adalee2future/reports/src/default/standard.md)
-[报表运维](https://bitbucket.org/adalee2future/reports/src/default/maintenance.md)
+[报表规范](https://bitbucket.org/adalee2future/reports/src/master/standard.md)
+[报表运维](https://bitbucket.org/adalee2future/reports/src/master/maintenance.md)
 
 ## 使用
 
@@ -117,7 +117,7 @@ where pt = '{pt}'
 
 用法：发邮件给data-report@abc.com，邮件主题为: bi_mail run 报表id    
 如 `bi_mail run wms仓库日报`    
-则一分钟内，系统就会自动发\<wms仓库日报\>报表   
+则一分钟内，系统就会自动发`wms仓库日报`报表   
 
 如果需要收件人和cfg中配置的不一样，比如只发给自己或者几个人先看看，则邮件主题为: bi_mail run 报表id 收件人，如`bi_mail run 门店欠货明细 to=si.li@abc.com,amy.zhao@abc.com` 
 
@@ -140,8 +140,8 @@ bi_mail run 营销日报 to=bob.li@abc.com;pt=20180301
 
 ### 下线代码
 
-1\. 配置文件添加 "is_online": false
-2\. 通知管理员，删除定时发送   
+1\. 配置文件添加 "is_online": false  
+2\. 通知管理员，删除crontab定时   
 
 ## 附
 
